@@ -1,4 +1,4 @@
-import { useToast } from '@chakra-ui/react';
+import { Box, useToast } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 
@@ -35,9 +35,5 @@ export default function Login() {
 				});
 		};
 	};
-	return (
-		<>
-			<div>Login</div>
-		</>
-	);
+	return <></>;
 }
