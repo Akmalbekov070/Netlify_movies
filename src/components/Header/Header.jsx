@@ -17,12 +17,7 @@ export default function Header() {
 				<Box w={'full'} h={24} position={'absolute'} top={0} left={0} zIndex={1}>
 					<Box w={'full'} display={'flex'} alignItems={'center'} justifyContent={'space-between'} px={28} py={8}>
 						<Box w={'full'} display={'flex '} alignItems={'center'} gap={2}>
-							<Image
-								w={'80px'}
-								h={'80px'}
-								src='https://file1.removal.ai/preview/3130e5af-1ab6-41e2-a83b-b11c861ca83e_png-clipart-planet-computer-icons-earth-symbol-astronomy-planet-miscellaneous-computer-wallpaper.png'
-								alt='kh'
-							/>
+							<Image w={'80px'} h={'80px'} src='https://cdn.pixabay.com/photo/2019/08/11/18/54/icon-4399690_1280.png' alt='kh' />
 							<Text color={'red'} fontSize={'5xl'} fontStyle={'oblique'}>
 								{' '}
 								Universe
