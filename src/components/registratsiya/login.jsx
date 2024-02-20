@@ -1,39 +1,17 @@
-import { Box, useToast } from '@chakra-ui/react';
-import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import { Box, Button, Link, Stack } from '@chakra-ui/react';
+import React from 'react';
+import { FaArrowRight } from 'react-icons/fa';
 
 export default function Login() {
-	const Login = () => {
-		const [showPassword, setShowPassword] = useState(false);
-
-		const handleShowClick = () => setShowPassword(!showPassword);
-
-		const [email, setEmail] = useState('');
-		const [password, setPassword] = useState('');
-		const toast = useToast();
-		const router = useRouter();
-
-		const postData = () => {
-			fetch('http://localhost:8000/signin', {
-				method: 'post',
-				headers: {
-					'Content-Type': 'application/json',
-				},
-				body: JSON.stringify({
-					email: email,
-					password: password,
-				}),
-			})
-				.then(res => res.json())
-				.then(data => {
-					if (data.error) {
-						toast({ title: data.error, status: 'error', duration: 3000, position: 'top-right', isClosable: true });
-					} else {
-						toast({ title: 'success', status: 'success', duration: 3000, position: 'top-right', isClosable: true });
-						router.push('/post');
-					}
-				});
-		};
-	};
-	return <>salom</>;
+	return (
+		<Box w={'full'} display={'flex'} justifyContent={'center'} alignItems={'center'} gap={5} pt={36}>
+			<Stack>
+				<Link href='/'>
+					<Button w={'220px'} h={'50px'} rightIcon={<FaArrowRight />} fontSize={'2xl'} bg={'green'} variant={'outlline'}>
+						Next
+					</Button>
+				</Link>
+			</Stack>
+		</Box>
+	);
 }
