@@ -1,7 +1,7 @@
 import Header from '@/components/Header/Header';
 import '@/styles/globals.css';
 import { Box, ChakraProvider } from '@chakra-ui/react';
-import { ClerkProvider, SignIn, SignedIn, SignedOut } from '@clerk/nextjs';
+import { ClerkProvider, SignIn, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 
 export default function App({ Component, pageProps }) {
 	return (
@@ -9,6 +9,7 @@ export default function App({ Component, pageProps }) {
 			<ClerkProvider>
 				<SignedIn>
 					<Component {...pageProps} />
+					<Header />
 				</SignedIn>
 				<SignedOut>
 					<Box
@@ -22,7 +23,7 @@ export default function App({ Component, pageProps }) {
 					>
 						<SignIn />
 					</Box>
-					<Box w={'full'} position={'absolute'} top={0} left={0}>
+					<Box w={'full'} position={'absolute'} top={0} left={0} zIndex={50}>
 						<Header />
 					</Box>
 				</SignedOut>

@@ -1,6 +1,7 @@
-import { Box, HStack, Heading, Image, Menu, MenuButton, MenuItem, MenuList, Text } from '@chakra-ui/react';
+import { Box, HStack, Heading, Image, Link, Menu, MenuButton, MenuItem, MenuList, Text } from '@chakra-ui/react';
 import React from 'react';
 import Login from '../registratsiya/login';
+import { UserButton } from '@clerk/nextjs';
 
 export default function Header() {
 	return (
@@ -23,14 +24,24 @@ export default function Header() {
 								Universe
 							</Text>
 						</Box>
-						<Box w={'full'} display={'flex'} justifyContent={'right'}>
-							<select name='language' className='w-[100px] h-[50px] rounded-xl px-4 outline-none text-2xl bg-gray-950'>
-								<option value='Uzb'>Uzb</option>
-								<option value='Rus'>Rus</option>
-								<option value='Eng'>Eng</option>
-							</select>
+						<Box w={'full'} display={'flex'} justifyContent={'right'} alignItems={'center'} gap={5}>
+							{/* header left  */}
+							<HStack gap={6} fontSize={'xl'} textDecoration={'none'}>
+								<a href='/' className='text-red-600'>
+									Home
+								</a>
+								<a href='/' className='hover:text-red-600'>
+									About
+								</a>
+								<a href='/' className='hover:text-red-600'>
+									Contact
+								</a>
+							</HStack>
+							{/* email button */}
+							<UserButton />
 						</Box>
 					</Box>
+					{/* button page */}
 					<Login />
 				</Box>
 			</Box>
