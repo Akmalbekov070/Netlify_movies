@@ -30,10 +30,10 @@ export default function Header() {
 								<a href='/' className='text-red-600'>
 									Home
 								</a>
-								<a href='/' className='hover:text-red-600'>
+								<a href='/' className='hover:text-red-600 text-white'>
 									About
 								</a>
-								<a href='/' className='hover:text-red-600'>
+								<a href='/' className='hover:text-red-600 text-white'>
 									Contact
 								</a>
 							</HStack>

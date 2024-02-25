@@ -9,7 +9,6 @@ export default function App({ Component, pageProps }) {
 			<ClerkProvider>
 				<SignedIn>
 					<Component {...pageProps} />
-					<Header />
 				</SignedIn>
 				<SignedOut>
 					<Box
