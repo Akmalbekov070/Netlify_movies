@@ -22,8 +22,7 @@ export default function App({ Component, pageProps }) {
 					>
 						<SignIn />
 					</Box>
-					<Box w={'full'} position={'absolute'} top={0} left={0} zIndex={50}>
-						<UserButton />
+					<Box w={'full'} position={'absolute'} top={0} left={0} zIndex={10}>
 						<Header />
 					</Box>
 				</SignedOut>

@@ -38,6 +38,7 @@ export default function Header() {
 								</a>
 							</HStack>
 							{/* email button */}
+							<UserButton />
 						</Box>
 					</Box>
 					{/* button page */}
