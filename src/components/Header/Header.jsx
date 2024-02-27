@@ -1,4 +1,4 @@
-import { Box, HStack, Heading, Image, Link, Menu, MenuButton, MenuItem, MenuList, Text } from '@chakra-ui/react';
+import { Box, HStack, Image, Text } from '@chakra-ui/react';
 import React from 'react';
 import Login from '../registratsiya/login';
 import { UserButton } from '@clerk/nextjs';
