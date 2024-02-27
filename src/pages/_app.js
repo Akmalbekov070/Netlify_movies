@@ -14,6 +14,7 @@ export default function App({ Component, pageProps }) {
 				<SignedOut>
 					<Box
 						w={'full'}
+						h={'650px'}
 						position={'relative'}
 						zIndex={50}
 						display={'flex'}
