@@ -2,6 +2,7 @@ import { Box, HStack, Image, Text } from '@chakra-ui/react';
 import React from 'react';
 import Login from '../registratsiya/login';
 import { UserButton } from '@clerk/nextjs';
+import Link from 'next/link';
 
 export default function Header() {
 	return (
@@ -27,15 +28,15 @@ export default function Header() {
 						<Box w={'full'} display={'flex'} justifyContent={'right'} alignItems={'center'} gap={5}>
 							{/* header left  */}
 							<HStack gap={6} fontSize={'xl'} textDecoration={'none'}>
-								<a href='/' className='text-red-600'>
+								<Link href='/' className='text-red-600'>
 									Home
-								</a>
-								<a href='/' className='hover:text-red-600 text-white'>
+								</Link>
+								<Link href='/' className='hover:text-red-600 text-white'>
 									About
-								</a>
-								<a href='/' className='hover:text-red-600 text-white'>
+								</Link>
+								<Link href='/' className='hover:text-red-600 text-white'>
 									Contact
-								</a>
+								</Link>
 							</HStack>
 							{/* email button */}
 							<UserButton />
