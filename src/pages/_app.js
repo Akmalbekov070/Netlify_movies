@@ -1,7 +1,7 @@
 import Header from '@/components/Header/Header';
 import '@/styles/globals.css';
 import { Box, ChakraProvider } from '@chakra-ui/react';
-import { ClerkProvider, SignIn, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
+import { ClerkProvider, SignIn, SignedIn, SignedOut } from '@clerk/nextjs';
 
 export default function App({ Component, pageProps }) {
 	return (
