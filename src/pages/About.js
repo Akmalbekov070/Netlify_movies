@@ -1,4 +1,4 @@
-import About from '@/components/about/about';
+import About from '@/page/about/about';
 import React from 'react';
 
 export default function AboutPage() {
