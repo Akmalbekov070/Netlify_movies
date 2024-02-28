@@ -41,10 +41,32 @@ export default function Header() {
 						</Box>
 						<Box w={'full'} display={'flex'} justifyContent={'right'} alignItems={'center'} gap={5}>
 							{/* header left  */}
-							<HStack gap={6} fontSize={'xl'} cursor={'pointer'}>
-								<Link href='/'>Home</Link>
-								<Link href='/'>About</Link>
-								<Link href='/'>Contact</Link>
+							<HStack gap={6} fontSize={'xl'} cursor={'pointer'} color={'white'}>
+								<Box display={{ base: 'flex', sm: 'none' }}>
+									<Menu>
+										<MenuButton as={Button} color={'white'} fontSize={'25'} variant='outline'>
+											<RxHamburgerMenu />
+										</MenuButton>
+										<MenuList>
+											<MenuItem>
+												<Link href='/'>Home</Link>
+											</MenuItem>
+											<MenuItem>
+												{' '}
+												<Link href='/'>About</Link>
+											</MenuItem>
+											<MenuItem>
+												{' '}
+												<Link href='/'>Contact</Link>
+											</MenuItem>
+										</MenuList>
+									</Menu>
+								</Box>
+								<HStack display={{ base: 'none', sm: 'flex' }} gap={5}>
+									<Link href='/'>Home</Link>
+									<Link href='/'>About</Link>
+									<Link href='/'>Contact</Link>
+								</HStack>
 							</HStack>
 							{/* email button */}
 							<UserButton />
