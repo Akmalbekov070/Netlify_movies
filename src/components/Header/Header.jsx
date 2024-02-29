@@ -47,7 +47,7 @@ export default function Header() {
 										<MenuButton as={Button} color={'white'} fontSize={'25'} variant='outline'>
 											<RxHamburgerMenu />
 										</MenuButton>
-										<MenuList>
+										<MenuList color={'black'}>
 											<MenuItem>
 												<Link href='/Home'>Home</Link>
 											</MenuItem>
