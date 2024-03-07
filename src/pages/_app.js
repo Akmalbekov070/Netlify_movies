@@ -1,4 +1,6 @@
 import Header from '@/components/Header/Header';
+import MenuPage from '@/components/menu/menu';
+import Menu from '@/components/menu/menu';
 import '@/styles/globals.css';
 import { Box, ChakraProvider } from '@chakra-ui/react';
 import { ClerkProvider, SignIn, SignedIn, SignedOut } from '@clerk/nextjs';

@@ -25,6 +25,7 @@ export default function Header() {
 						px={{ xl: 28, lg: 16, base: 5 }}
 						py={8}
 					>
+						{/* header right */}
 						<Box w={'full'} display={'flex '} alignItems={'center'} gap={2}>
 							<Link href={'/'}>
 								<Image
