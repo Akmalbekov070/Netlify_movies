@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
 						alignItems={'center'}
 						pt={28}
 					>
-						{/* <SignIn /> */}
+						<SignIn />
 					</Box>
 					<Box w={'full'} position={'absolute'} top={0} left={0} zIndex={10}>
 						<Header />
