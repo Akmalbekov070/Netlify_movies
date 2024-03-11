@@ -17,7 +17,7 @@ export default function CinemaHome() {
 			/>
 			<MenuPage />
 			{AllCinema.map(item => (
-				<Box w={'full'} h={'100vh'} position={'absolute'} top={0} left={0} zIndex={10}>
+				<Box key={item.id} w={'full'} h={'100vh'} position={'absolute'} top={0} left={0} zIndex={10}>
 					<Heading>{item.Name}</Heading>
 				</Box>
 			))}
