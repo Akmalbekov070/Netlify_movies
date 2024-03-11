@@ -1,9 +1,9 @@
 import MenuPage from '@/components/menu/menu';
 import { Box, Heading, Image } from '@chakra-ui/react';
 import React from 'react';
-import { AllCinema } from './cinema';
+import { AllCinema } from '../cinemaPage/cinema';
 
-export default function Cinema() {
+export default function CinemaHome() {
 	console.log(AllCinema);
 	return (
 		<Box w={'full'} position={'relative'}>
@@ -15,12 +15,12 @@ export default function Cinema() {
 				title='Cinima page image'
 				alt='Cinima page image'
 			/>
-			<Box w={'full'} h={'100vh'} position={'absolute'} top={0} left={0} zIndex={10}>
-				<MenuPage />
-				<Box pt={'300px'} textAlign={'center'}>
-					<Heading color={'white'}>I LOVE YOU Rayhona❤️😘</Heading>
+			<MenuPage />
+			{AllCinema.map(item => (
+				<Box w={'full'} h={'100vh'} position={'absolute'} top={0} left={0} zIndex={10}>
+					<Heading>{item.Name}</Heading>
 				</Box>
-			</Box>
+			))}
 			<Box w={'full'} h={'100vh'} position={'absolute'} bg={'blackAlpha.700'} top={0} left={0}></Box>
 		</Box>
 	);
