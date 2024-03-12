@@ -18,7 +18,7 @@ export default function CinemaHome() {
 							px={{ base: '30px', sm: '120px', lg: '150px', xl: '250px' }}
 							color={'white'}
 						>
-							<Heading fontSize={{ lg: '4xl' }} fontFamily={'-moz-initial'}>
+							<Heading fontSize={{ base: '2xl', sm: '3xl', lg: '4xl', xl: '5xl' }} fontFamily={'-moz-initial'}>
 								{item.Name}
 							</Heading>
 							<Text w={{ xl: '80%' }} fontSize={'lg'} py={6} fontWeight={'500'}>
@@ -27,7 +27,7 @@ export default function CinemaHome() {
 							<Button>Watching a movie</Button>
 						</Box>
 					</Box>
-					<Box w={'full'} h={'100vh'} position={'absolute'} bg={'blackAlpha.800'} top={0} left={0}></Box>
+					<Box w={'full'} h={'100vh'} position={'absolute'} bg={'blackAlpha.700'} top={0} left={0}></Box>
 				</Box>
 			))}
 		</>
