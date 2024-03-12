@@ -16,6 +16,7 @@ export default function CinemaHome() {
 							w={'full'}
 							pt={{ base: '150px', lg: '190px', xl: '200px' }}
 							px={{ base: '30px', sm: '120px', lg: '150px', xl: '250px' }}
+							color={'white'}
 						>
 							<Heading fontSize={{ lg: '4xl' }} fontFamily={'-moz-initial'}>
 								{item.Name}
