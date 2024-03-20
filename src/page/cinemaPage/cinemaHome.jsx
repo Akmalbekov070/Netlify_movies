@@ -1,12 +1,9 @@
 import MenuPage from '@/components/menu/menu';
 import { Box, Button, Heading, Image, Text } from '@chakra-ui/react';
-import React, { useEffect, useState } from 'react';
 import { AllCinema } from '../cinemaPage/cinema';
-import axios from 'axios';
 
 export default function CinemaHome() {
 	const movies = AllCinema[Math.floor(Math.random() * AllCinema.length)];
-
 	console.log(movies);
 	return (
 		<>
