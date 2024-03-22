@@ -26,6 +26,7 @@ export default function CinemaHome() {
 						</Text>
 						<Button>Watching a movie</Button>
 					</Box>
+					{/* CinamaCard page */}
 					<CineamCard />
 				</Box>
 				<Box w={'full'} h={'100vh'} position={'absolute'} bg={'blackAlpha.700'} top={0} left={0}></Box>
