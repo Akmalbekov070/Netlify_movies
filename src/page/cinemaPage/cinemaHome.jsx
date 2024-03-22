@@ -1,6 +1,7 @@
 import MenuPage from '@/components/menu/menu';
 import { Box, Button, Heading, Image, Text } from '@chakra-ui/react';
 import { AllCinema } from '../cinemaPage/cinema';
+import CineamCard from './cineamCard';
 
 export default function CinemaHome() {
 	const movies = AllCinema[Math.floor(Math.random() * AllCinema.length)];
@@ -25,6 +26,7 @@ export default function CinemaHome() {
 						</Text>
 						<Button>Watching a movie</Button>
 					</Box>
+					<CineamCard />
 				</Box>
 				<Box w={'full'} h={'100vh'} position={'absolute'} bg={'blackAlpha.700'} top={0} left={0}></Box>
 			</Box>
