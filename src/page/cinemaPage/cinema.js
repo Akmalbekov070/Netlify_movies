@@ -1,7 +1,7 @@
 export const AllCinema = [
 	{
 		id: 1,
-		Name: 'Kung Fu Panda',
+		Name: 'Kung Fu Panda 2',
 		tittle:
 			"After three death-defying adventures defeating world-class villains with his unmatched courage and mad martial arts skills, Po, the Dragon Warrior (Golden Globe nominee Jack Black), is called upon by destiny to... give it a rest already. More specifically, he's tapped to become the Spiritual Leader of the Valley of Peace.",
 		image:
@@ -60,7 +60,7 @@ export const AllCinema = [
 		id: 9,
 		Name: 'Sonic 2',
 		tittle:
-			"Yashil tepalikka joylashib, Sonic haqiqiy qahramonning barcha imkoniyatlariga ega ekanligini isbotlashga intiladi. Qahramonlik sinovi esa uzoq kutilmaydi: yovuz doktor Robotnik yana fitna uyushtirmoqda. Bu safar - sirli hamkor Knuckles bilan. Ular birgalikda butun tsivilizatsiyalarni yo'q qilishga qodir kuchlarni o'z ichiga olgan bebaho zumradni qidiradilar. Sonic Tails tulkisi bilan birgalikda dunyo bo'ylab sayohat qiladi va zumradni noto'g'ri qo'llarga tushishidan oldin topadi.",
-		image: 'https://st32.stpulscen.ru/images/product/477/140/332_big.jpeg',
+			'Settling on Green Hill, Sonic strives to prove that he has all the potential of a true hero. And the test of heroism is not long in coming: the evil Dr. Robotnik is plotting again. This time - with the mysterious partner Knuckles. Together, they search for a priceless emerald that contains powers capable of destroying entire civilizations. Sonic travels the world with his fox Tails to find the emerald before it falls into the wrong hands.',
+		image: 'https://pic.rutubelist.ru/video/73/10/7310890b02550004cd28587441ae308a.jpg',
 	},
 ];
