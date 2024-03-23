@@ -5,7 +5,6 @@ import CineamCard from './cineamCard';
 
 export default function CinemaHome() {
 	const movies = AllCinema[Math.floor(Math.random() * AllCinema.length)];
-	console.log(movies);
 	return (
 		<>
 			<Box w={'full'} position={'relative'} key={movies.id}>
