@@ -63,4 +63,18 @@ export const AllCinema = [
 			'Settling on Green Hill, Sonic strives to prove that he has all the potential of a true hero. And the test of heroism is not long in coming: the evil Dr. Robotnik is plotting again. This time - with the mysterious partner Knuckles. Together, they search for a priceless emerald that contains powers capable of destroying entire civilizations. Sonic travels the world with his fox Tails to find the emerald before it falls into the wrong hands.',
 		image: 'https://pic.rutubelist.ru/video/73/10/7310890b02550004cd28587441ae308a.jpg',
 	},
+	{
+		id: 10,
+		Name: 'Fast and Furious 10',
+		tittle: "Dominic Toretto's family is under attack again. Cypher joins forces with Dante, who wants revenge.",
+		image: 'https://pic.rutubelist.ru/video/73/10/7310890b02550004cd28587441ae308a.jpg',
+	},
+	{
+		id: 11,
+		Name: 'Fast and Furious 9',
+		tittle:
+			"Dominic Toretto lives a peaceful life with Letty and her son Brian, but they know that new danger is always around. This time, Dominic must face the ghosts of his past if he wants to save those closest to him. The team meets once again to thwart a daring plan to take over the world from the world's most dangerous criminal and careless driver.",
+		image:
+			'// https://4kwallpapers.com/images/wallpapers/fast-furious-9-f9-vin-diesel-jordana-brewster-ludacris-2880x1800-6301.jpg',
+	},
 ];
