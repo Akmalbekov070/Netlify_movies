@@ -10,7 +10,7 @@ export default function CinemaHome() {
 			<Box w={'full'} position={'relative'} key={movies.id}>
 				<Image
 					w={'full'}
-					h={{ base: '100vh', xl: '120vh' }}
+					h={{ base: '122vh', xl: '120vh' }}
 					objectFit={'cover'}
 					src={movies.image}
 					title='Cinima page image'
@@ -30,12 +30,14 @@ export default function CinemaHome() {
 						<Text w={{ xl: '80%' }} fontSize={'lg'} py={6} fontWeight={'500'}>
 							{movies.tittle.slice(0, 230)}..
 						</Text>
-						<Button bg={'transparent'}>Watching a movie</Button>
+						<Button color={'white'} bg={'transparent'}>
+							Watching a movie
+						</Button>
 					</Box>
 					{/* CinamaCard page */}
 					<CineamCard />
 				</Box>
-				<Box w={'full'} h={{ base: '100vh', xl: '120vh' }} position={'absolute'} bg={'blackAlpha.700'} top={0} left={0}></Box>
+				<Box w={'full'} h={{ base: '122vh', xl: '120vh' }} position={'absolute'} bg={'blackAlpha.700'} top={0} left={0}></Box>
 			</Box>
 		</>
 	);
