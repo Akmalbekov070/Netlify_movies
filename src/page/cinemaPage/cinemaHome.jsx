@@ -8,7 +8,14 @@ export default function CinemaHome() {
 	return (
 		<>
 			<Box w={'full'} position={'relative'} key={movies.id}>
-				<Image w={'full'} h={'100vh'} objectFit={'cover'} src={movies.image} title='Cinima page image' alt='Cinima page image' />
+				<Image
+					w={'full'}
+					h={{ base: '100vh', xl: '120vh' }}
+					objectFit={'cover'}
+					src={movies.image}
+					title='Cinima page image'
+					alt='Cinima page image'
+				/>
 				<MenuPage />
 				<Box w={'full'} position={'absolute'} top={0} left={0} zIndex={20}>
 					<Box
@@ -21,14 +28,14 @@ export default function CinemaHome() {
 							{movies.Name}
 						</Heading>
 						<Text w={{ xl: '80%' }} fontSize={'lg'} py={6} fontWeight={'500'}>
-							{movies.tittle}
+							{movies.tittle.slice(0, 230)}..
 						</Text>
-						<Button>Watching a movie</Button>
+						<Button bg={'transparent'}>Watching a movie</Button>
 					</Box>
 					{/* CinamaCard page */}
 					<CineamCard />
 				</Box>
-				<Box w={'full'} h={'100vh'} position={'absolute'} bg={'blackAlpha.700'} top={0} left={0}></Box>
+				<Box w={'full'} h={{ base: '100vh', xl: '120vh' }} position={'absolute'} bg={'blackAlpha.700'} top={0} left={0}></Box>
 			</Box>
 		</>
 	);

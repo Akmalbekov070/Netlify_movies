@@ -26,21 +26,28 @@ export default function CineamCard() {
 		},
 	};
 	return (
-		<Box w={'full'} pt={'50px'} px={{ base: 16, xl: 10 }}>
+		<Box w={'full'} pt={'60px'} px={{ base: 16, xl: 10 }}>
 			<Carousel responsive={responsive}>
 				{AllCinema.map(item => (
-					<Card key={item.id} maxW='280px' maxH='700px'>
+					<Card bg={'gray.800'} key={item.id} maxW='280px' maxH='700px'>
 						<CardBody>
 							<Image
 								w={'full'}
-								h={'300px'}
+								h={{ base: '380px', xl: '300px' }}
 								objectFit={'cover'}
 								position={'relative'}
 								src={item.image}
 								alt='image'
 								borderRadius='lg'
 							/>
-							<Box w={'full'} h={'340px'} bg={'blackAlpha.700'} position={'absolute'} top={0} left={0}></Box>
+							<Box
+								w={'full'}
+								h={{ base: '420px', xl: '340px' }}
+								bg={'blackAlpha.700'}
+								position={'absolute'}
+								top={0}
+								left={0}
+							></Box>
 							<Box position={'absolute'} w={'full'} h={'full'} left={0} top={0}></Box>
 							<Stack position={'absolute'} bottom={5} py={1} mt='6' spacing='1'>
 								<Heading textAlign={'center'} size='lg'>
