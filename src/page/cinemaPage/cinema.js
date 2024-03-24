@@ -67,14 +67,13 @@ export const AllCinema = [
 		id: 10,
 		Name: 'Fast and Furious 10',
 		tittle: "Dominic Toretto's family is under attack again. Cypher joins forces with Dante, who wants revenge.",
-		image: 'https://pic.rutubelist.ru/video/73/10/7310890b02550004cd28587441ae308a.jpg',
+		image: 'https://img.ixbt.site/live/topics/preview/00/04/84/32/04a3f27df4.jpg',
 	},
 	{
 		id: 11,
 		Name: 'Fast and Furious 9',
 		tittle:
 			"Dominic Toretto lives a peaceful life with Letty and her son Brian, but they know that new danger is always around. This time, Dominic must face the ghosts of his past if he wants to save those closest to him. The team meets once again to thwart a daring plan to take over the world from the world's most dangerous criminal and careless driver.",
-		image:
-			'// https://4kwallpapers.com/images/wallpapers/fast-furious-9-f9-vin-diesel-jordana-brewster-ludacris-2880x1800-6301.jpg',
+		image: 'https://4kwallpapers.com/images/wallpapers/fast-furious-9-f9-vin-diesel-jordana-brewster-ludacris-2880x1800-6301.jpg',
 	},
 ];
