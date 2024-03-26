@@ -12,7 +12,7 @@ import {
 } from '@chakra-ui/react';
 import React from 'react';
 
-export default function ModalPage({ isOpen, onClose }) {
+export default function ModalPage({ isOpen, onClose, param }) {
 	return (
 		<Box>
 			<Modal size={'4xl'} isOpen={isOpen} onClose={onClose}>
