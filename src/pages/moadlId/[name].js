@@ -4,6 +4,6 @@ import React from 'react';
 
 export default function ModalId() {
 	const param = useParams();
-	console.log(Parma);
+	console.log(param);
 	return <ModalPage param={param} />;
 }

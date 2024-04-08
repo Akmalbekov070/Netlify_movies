@@ -10,9 +10,16 @@ import {
 	ModalOverlay,
 	useDisclosure,
 } from '@chakra-ui/react';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { AllCinema } from './cinema';
 
 export default function ModalPage({ isOpen, onClose, param }) {
+	const [scillDetail, setScillDetail] = useState([]);
+	// useEffect(() => {
+	// 	AllCinema.then(res => setScillDetail(res));
+	// }, []);
+	const scillItem = AllCinema.filter(item => item.Name === param.name);
+	console.log(scillItem);
 	return (
 		<Box>
 			<Modal size={'4xl'} isOpen={isOpen} onClose={onClose}>
