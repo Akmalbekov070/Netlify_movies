@@ -14,11 +14,12 @@ import React, { useEffect, useState } from 'react';
 import { AllCinema } from './cinema';
 
 export default function ModalPage({ isOpen, onClose, param }) {
-	// const [scillDetail, setScillDetail] = useState([]);
+	const [scillDetail, setScillDetail] = useState([]);
 	// useEffect(() => {
 	// 	AllCinema().then(res => setScillDetail(res));
 	// }, []);
-	const scillItem = AllCinema.filter(item => item.Name == param);
+
+	// const scillItem = scillDetail.filter(item => item.Name == param.name);
 	console.log(scillItem);
 	return (
 		<Box>
