@@ -5,7 +5,6 @@ import 'react-multi-carousel/lib/styles.css';
 import { AllCinema } from './cinema';
 
 export default function CineamCard() {
-	console.log(AllCinema);
 	const responsive = {
 		superLargeDesktop: {
 			// the naming can be any, depends on you.

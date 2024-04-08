@@ -16,9 +16,9 @@ import { AllCinema } from './cinema';
 export default function ModalPage({ isOpen, onClose, param }) {
 	const [scillDetail, setScillDetail] = useState([]);
 	// useEffect(() => {
-	// 	AllCinema.then(res => setScillDetail(res));
+	// 	AllCinema().then(res => setScillDetail(res));
 	// }, []);
-	const scillItem = AllCinema.filter(item => item.Name === param.name);
+	const scillItem = scillDetail.filter(AllCinema => AllCinema.Name === param.name);
 	console.log(scillItem);
 	return (
 		<Box>
