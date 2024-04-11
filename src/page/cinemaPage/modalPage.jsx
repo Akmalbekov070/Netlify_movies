@@ -11,9 +11,7 @@ import {
 	useDisclosure,
 } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
-import { AllCinema } from './cinema';
-
-export default function ModalPage({ isOpen, onClose }) {
+export default function ModalPage({ isOpen, onClose, param }) {
 	// const [scillDetail, setScillDetail] = useState([]);
 	// useEffect(() => {
 	// 	AllCinema().then(res => setScillDetail(res));
