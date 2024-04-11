@@ -19,7 +19,7 @@ export default function ModalPage({ isOpen, onClose, movies }) {
 			<Modal size={'4xl'} isOpen={isOpen} onClose={onClose}>
 				<ModalOverlay />
 				<ModalContent>
-					<ModalHeader>Modal Title</ModalHeader>
+					<ModalHeader>{movies.Name}</ModalHeader>
 					<ModalCloseButton />
 					<ModalBody>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolore aspernatur inventore, ea reprehenderit omnis!
