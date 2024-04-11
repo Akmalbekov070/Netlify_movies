@@ -7,9 +7,7 @@ import ModalPage from './modalPage';
 export default function CinemaHome() {
 	const movies = AllCinema[Math.floor(Math.random() * AllCinema.length)];
 	const { isOpen, onOpen, onClose } = useDisclosure();
-	module.exports = {
-		movies,
-	};
+
 	return (
 		<>
 			<Box w={'full'} position={'relative'} key={movies.id}>
@@ -39,7 +37,7 @@ export default function CinemaHome() {
 							Watching a movie
 						</Button>
 						{/* Modal page  */}
-						<ModalPage isOpen={isOpen} onClose={onClose} />
+						<ModalPage movies={movies} isOpen={isOpen} onClose={onClose} />
 					</Box>
 					{/* CinamaCard page */}
 					<CineamCard />
