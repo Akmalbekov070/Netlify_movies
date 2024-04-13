@@ -9,6 +9,7 @@ import {
 	ModalHeader,
 	ModalOverlay,
 	useDisclosure,
+	Image,
 } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
 
@@ -16,10 +17,13 @@ export default function ModalPage({ isOpen, onClose, movies }) {
 	console.log(movies);
 	return (
 		<Box>
-			<Modal size={'4xl'} isOpen={isOpen} onClose={onClose}>
+			<Modal size={'5xl'} isOpen={isOpen} onClose={onClose}>
 				<ModalOverlay />
 				<ModalContent>
 					<ModalHeader>{movies.Name}</ModalHeader>
+					<ModalHeader>
+						<Image w={'full'} h={'400px'} objectFit={'cover'} src={movies.image} alt={movies.Name} />
+					</ModalHeader>
 					<ModalBody>{movies.tittle}</ModalBody>
 
 					<ModalFooter>
