@@ -76,4 +76,11 @@ export const AllCinema = [
 			"Dominic Toretto lives a peaceful life with Letty and her son Brian, but they know that new danger is always around. This time, Dominic must face the ghosts of his past if he wants to save those closest to him. The team meets once again to thwart a daring plan to take over the world from the world's most dangerous criminal and careless driver.",
 		image: 'https://4kwallpapers.com/images/wallpapers/fast-furious-9-f9-vin-diesel-jordana-brewster-ludacris-2880x1800-6301.jpg',
 	},
+	{
+		id: 12,
+		Name: 'Rempage',
+		tittle:
+			'Three different animals get infected with a dangerous virus and lose control of themselves. And this virus is the result of scientific work of people in space and comes to earth and infects gorillas, crocodiles and wolves. Definitely watch this movie!!!',
+		image: 'https://media.kg-portal.ru/production/rampagegame/rampagegame_5.jpg',
+	},
 ];
