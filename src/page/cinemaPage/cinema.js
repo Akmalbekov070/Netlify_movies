@@ -83,4 +83,20 @@ export const AllCinema = [
 			'Three different animals get infected with a dangerous virus and lose control of themselves. And this virus is the result of scientific work of people in space and comes to earth and infects gorillas, crocodiles and wolves. Definitely watch this movie!!!',
 		image: 'https://media.kg-portal.ru/production/rampagegame/rampagegame_5.jpg',
 	},
+	{
+		id: 13,
+		Name: 'godzilla vs king kong',
+		tittle:
+			'It is humanitys fault that Godzilla and Kong are forced to team up in an unequal battle. The Monarch organization, which monitors the life of monsters on Earth, sends an expedition to the unspoiled lands of Skull Island, hoping to uncover the secret of the origin of the Titans. But, besides the Monarch, there are other people who plan to destroy both the good and the bad',
+		image:
+			'https://sm.ign.com/t/ign_ap/feature/h/humanity-v/humanity-vs-nature-in-the-monsterverse-a-godzilla-vs-kong-pr_kanf.1200.jpg',
+	},
+	{
+		id: 13,
+		Name: 'Godzilla and Kong: The New Empire ',
+		tittle:
+			'Two ancient titans, Godzilla and Kong, battle it out in an epic battle as humans discover their origins and connections to the mysteries of Skull Island \
+Dva drevnih titana, Godzilla and Kong, srajayutsya v epicheskoy bitve, poka lyudi razgadyvayut ix proiskhojdenie i svyaz s taynami Ostrova cherepa',
+		image: 'http://asilmedia.org/uploads/mini/fullstory/c6/422cdc80a13c7c083528480ebcb2ff.jpg',
+	},
 ];
