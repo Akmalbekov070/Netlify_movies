@@ -99,4 +99,10 @@ export const AllCinema = [
 Dva drevnih titana, Godzilla and Kong, srajayutsya v epicheskoy bitve, poka lyudi razgadyvayut ix proiskhojdenie i svyaz s taynami Ostrova cherepa',
 		image: 'http://asilmedia.org/uploads/mini/fullstory/c6/422cdc80a13c7c083528480ebcb2ff.jpg',
 	},
+	{
+		id: 14,
+		Name: 'Baymax',
+		tittle: 'About the adventures of the kind and sensitive medical robot Baymax and his friends.',
+		image: 'http://asilmedia.org/uploads/mini/fullstory/26/c4f5506eb380887a2b32896c0e27c3.jpg',
+	},
 ];
