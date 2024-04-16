@@ -103,6 +103,36 @@ Dva drevnih titana, Godzilla and Kong, srajayutsya v epicheskoy bitve, poka lyud
 		id: 14,
 		Name: 'Baymax',
 		tittle: 'About the adventures of the kind and sensitive medical robot Baymax and his friends.',
-		image: 'http://asilmedia.org/uploads/mini/fullstory/26/c4f5506eb380887a2b32896c0e27c3.jpg',
+		image: 'https://www.xtrafondos.com/wallpapers/baymax-2022-10366.jpg',
+	},
+	{
+		id: 15,
+		Name: 'Black leopard',
+		tittle:
+			"After the death of King T'Challa, Queen Ramonda, Shuri, M'Baku, Okoye, and the Dora Milaje fought to protect Wakanda from the world powers.",
+		image: 'https://i.ebayimg.com/images/g/JTcAAOSw-iljaljR/s-l1600.jpg',
+	},
+	{
+		id: 16,
+		Name: 'Venom 2: The Carnage Begins',
+		tittle:
+			"More than a year after those events, journalist Eddie Brock is trying to adapt to life as the host of the alien symbiote Venom, which gives him superhuman abilities. Brock tries to get his career back on track and happens to be Carnage's boss, interviewing Cletus Cassady, a serial killer who escaped from prison after a botched execution.",
+		image:
+			'https://i.ytimg.com/vi/6_FyTWbmbKw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGEQgRyhlMA8=&amp;rs=AOn4CLB5JmWuJPW7CmqLNzJ6gkyYSkdEaQ',
+	},
+	{
+		id: 17,
+		Name: 'black Adam',
+		tittle:
+			'5,000 years ago, Black Man was empowered and imprisoned by the gods of Egypt. Now he is freed from his grave and is preparing to show the world his unique approach to the fight for justice.',
+		image:
+			'https://sun9-5.userapi.com/impg/fkMxe94YdULiqZANvAmmrao2dwvTGzHjRXlwcA/ZC9nV7_YGLs.jpg?size=1280x720&quality=95&sign=f3dc6538cbca878e86e1feae35f9511c&c_uniq_tag=McJ4Kk1zP5qgeDtf3E9aNuDErNFRRE0klhKFrkrU1dI&type=album',
+	},
+	{
+		id: 18,
+		Name: 'Venom',
+		tittle:
+			"What if one day you were to meet a symbiotic being with human abilities? It's just Venom - the symbiote is absolutely cruel and impossible to get along with. But should we agree? But sometimes, being bad isn't so bad. Even more interesting. There are so many heroes in the world! We are Venom!",
+		image: 'https://i.ebayimg.com/images/g/Ph0AAOSwi3xcMjja/s-l1600.jpg',
 	},
 ];
