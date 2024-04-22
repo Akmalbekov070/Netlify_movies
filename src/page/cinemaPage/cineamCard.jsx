@@ -3,6 +3,7 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { AllCinema } from './cinema';
+import NewModalPage from './newModalPage';
 
 export default function CineamCard() {
 	const responsive = {
@@ -24,6 +25,8 @@ export default function CineamCard() {
 			items: 1,
 		},
 	};
+	const { isOpen, onOpen, onClose } = useDisclosure();
+
 	return (
 		<Box w={'full'} pt={'60px'} px={{ base: 16, xl: 10 }}>
 			<Carousel responsive={responsive}>
@@ -61,6 +64,8 @@ export default function CineamCard() {
 									<Button w={'100px'} variant={'outline'} colorScheme='yellow' borderRadius={'xl'} textAlign={'center'}>
 										Watch Now
 									</Button>
+									{/* modal page */}
+									<NewModalPage />
 								</Box>
 							</Stack>
 						</CardBody>
