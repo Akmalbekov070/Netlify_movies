@@ -1,4 +1,4 @@
-import { Box, Button, Card, CardBody, Heading, Image, Stack, Text } from '@chakra-ui/react';
+import { Box, Button, Card, CardBody, Heading, Image, Stack, Text, useDisclosure } from '@chakra-ui/react';
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';

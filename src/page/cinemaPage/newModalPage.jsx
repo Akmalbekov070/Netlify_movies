@@ -1,5 +1,5 @@
+import { Box, Button, ModalBody, ModalContent, ModalFooter, ModalHeader } from '@chakra-ui/react';
 import React from 'react';
-import { Box, Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Image } from '@chakra-ui/react';
 
 export default function NewModalPage() {
 	return (
