@@ -1,17 +1,17 @@
-import { Box, Button, ModalBody, ModalContent, ModalFooter, ModalHeader } from '@chakra-ui/react';
+import { Box, Button, Image, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, ModalOverlay } from '@chakra-ui/react';
 import React from 'react';
 
-export default function NewModalPage() {
+export default function NewModalPage({ isOpen, onClose }) {
 	return (
 		<Box>
 			<Modal size={'5xl'} isOpen={isOpen} onClose={onClose}>
 				<ModalOverlay />
 				<ModalContent>
-					<ModalHeader>{movies.Name}</ModalHeader>
+					<ModalHeader></ModalHeader>
 					<ModalHeader>
-						<Image w={'full'} h={'400px'} objectFit={'cover'} src={movies.image} alt={movies.Name} />
+						<Image w={'full'} h={'400px'} objectFit={'cover'} src='' alt='' />
 					</ModalHeader>
-					<ModalBody>{movies.tittle}</ModalBody>
+					<ModalBody></ModalBody>
 					<ModalFooter>
 						<Button colorScheme='blue' mr={3} onClick={onClose}>
 							Close

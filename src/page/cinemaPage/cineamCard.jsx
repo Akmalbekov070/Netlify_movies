@@ -61,11 +61,18 @@ export default function CineamCard() {
 									</Text>
 								</Box>
 								<Box w={'full'} textAlign={'center'}>
-									<Button w={'100px'} variant={'outline'} colorScheme='yellow' borderRadius={'xl'} textAlign={'center'}>
+									<Button
+										w={'100px'}
+										onClick={onOpen}
+										variant={'outline'}
+										colorScheme='yellow'
+										borderRadius={'xl'}
+										textAlign={'center'}
+									>
 										Watch Now
 									</Button>
 									{/* modal page */}
-									<NewModalPage />
+									<NewModalPage isOpen={isOpen} onClose={onClose} />
 								</Box>
 							</Stack>
 						</CardBody>
