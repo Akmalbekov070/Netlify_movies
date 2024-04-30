@@ -6,7 +6,7 @@ import { AllCinema } from './cinema';
 export default function NewModalPage({ isOpen, onClose, param }) {
 	// const [scillDetail, setScillDetail] = useState([]);
 
-	const scillItem = AllCinema.filter(item => item.Name == param.name);
+	const scillItem = AllCinema.filter(item => item.Name == param);
 	console.log(scillItem);
 	return (
 		<Box>
