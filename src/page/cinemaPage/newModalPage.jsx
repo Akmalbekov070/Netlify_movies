@@ -1,7 +1,13 @@
+'use client';
 import { Box, Button, Image, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, ModalOverlay } from '@chakra-ui/react';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { AllCinema } from './cinema';
 
-export default function NewModalPage({ isOpen, onClose }) {
+export default function NewModalPage({ isOpen, onClose, param }) {
+	// const [scillDetail, setScillDetail] = useState([]);
+
+	const scillItem = AllCinema.filter(item => item.Name == param.name);
+	console.log(scillItem);
 	return (
 		<Box>
 			<Modal size={'5xl'} isOpen={isOpen} onClose={onClose}>
