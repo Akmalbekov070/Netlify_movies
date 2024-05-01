@@ -14,7 +14,6 @@ import {
 import React, { useEffect, useState } from 'react';
 
 export default function ModalPage({ isOpen, onClose, movies }) {
-	console.log(movies);
 	return (
 		<Box>
 			<Modal size={'5xl'} isOpen={isOpen} onClose={onClose}>
