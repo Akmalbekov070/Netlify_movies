@@ -27,10 +27,10 @@ export default function CineamCard() {
 		},
 	};
 	const { isOpen, onOpen, onClose } = useDisclosure();
-	const params = useParams();
-	console.log(params);
-	const scillItem = AllCinema.filter(item => item.id === params.id);
-	console.log(scillItem);
+	// const params = useParams();
+	// console.log(params);
+	// const scillItem = AllCinema.filter(item => item.id === params.id);
+	// console.log(scillItem);
 
 	return (
 		<Box w={'full'} pt={'60px'} px={{ base: 16, xl: 10 }}>
