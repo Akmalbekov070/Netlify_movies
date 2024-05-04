@@ -62,11 +62,11 @@ export default function Header() {
 											</MenuItem>
 											<MenuItem>
 												{' '}
-												<Link href='/Contact'>UploadPost</Link>
+												<Link href='/Post'>UploadPost</Link>
 											</MenuItem>
 											<MenuItem>
 												{' '}
-												<Link href='/Contact'>MyPost</Link>
+												<Link href='/MyPost'>MyPost</Link>
 											</MenuItem>
 										</MenuList>
 									</Menu>
@@ -75,8 +75,8 @@ export default function Header() {
 									<Link href='/Home'>Home</Link>
 									<Link href='/About'>About</Link>
 									<Link href='/Contact'>Contact</Link>
-									<Link href='/Contact'>UploadPost</Link>
-									<Link href='/Contact'>MyPost</Link>
+									<Link href='/Post'>UploadPost</Link>
+									<Link href='/MyPost'>MyPost</Link>
 								</HStack>
 							</HStack>
 							{/* email button */}
