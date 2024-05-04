@@ -1,5 +1,5 @@
 import { Box, Button, Card, CardBody, Heading, Image, Stack, Text, useDisclosure } from '@chakra-ui/react';
-import React from 'react';
+import React, { useState } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { AllCinema } from './cinema';
@@ -27,9 +27,11 @@ export default function CineamCard() {
 		},
 	};
 	const { isOpen, onOpen, onClose } = useDisclosure();
+	// const { scill, scillItem } = useState();
+
 	// const params = useParams();
 	// console.log(params);
-	// const scillItem = AllCinema.filter(item => item.id === params.id);
+	// const scillItem = AllCinema.filter(item => item.Name === params.name);
 	// console.log(scillItem);
 
 	return (

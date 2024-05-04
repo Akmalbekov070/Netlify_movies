@@ -60,6 +60,14 @@ export default function Header() {
 												{' '}
 												<Link href='/Contact'>Contact</Link>
 											</MenuItem>
+											<MenuItem>
+												{' '}
+												<Link href='/Contact'>UploadPost</Link>
+											</MenuItem>
+											<MenuItem>
+												{' '}
+												<Link href='/Contact'>MyPost</Link>
+											</MenuItem>
 										</MenuList>
 									</Menu>
 								</Box>
@@ -67,6 +75,8 @@ export default function Header() {
 									<Link href='/Home'>Home</Link>
 									<Link href='/About'>About</Link>
 									<Link href='/Contact'>Contact</Link>
+									<Link href='/Contact'>UploadPost</Link>
+									<Link href='/Contact'>MyPost</Link>
 								</HStack>
 							</HStack>
 							{/* email button */}
