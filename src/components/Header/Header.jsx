@@ -50,7 +50,7 @@ export default function Header() {
 										</MenuButton>
 										<MenuList color={'black'}>
 											<MenuItem>
-												<Link href='/Home'>Home</Link>
+												<Link href='/CinemaHome'>Home</Link>
 											</MenuItem>
 											<MenuItem>
 												{' '}
@@ -72,7 +72,7 @@ export default function Header() {
 									</Menu>
 								</Box>
 								<HStack display={{ base: 'none', sm: 'flex' }} gap={5}>
-									<Link href='/Home'>Home</Link>
+									<Link href='/'>Home</Link>
 									<Link href='/About'>About</Link>
 									<Link href='/Contact'>Contact</Link>
 									<Link href='/Post'>UploadPost</Link>

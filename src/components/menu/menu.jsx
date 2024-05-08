@@ -41,7 +41,7 @@ export default function MenuPage() {
 								</MenuButton>
 								<MenuList color={'black'}>
 									<MenuItem>
-										<Link href='/Home'>Home</Link>
+										<Link href='/Header'>Home</Link>
 									</MenuItem>
 									<MenuItem>
 										{' '}
@@ -63,7 +63,7 @@ export default function MenuPage() {
 							</Menu>
 						</Box>
 						<HStack display={{ base: 'none', sm: 'flex' }} gap={5}>
-							<Link href='/Home'>Home</Link>
+							<Link href='/Header'>Home</Link>
 							<Link href='/About'>About</Link>
 							<Link href='/Contact'>Contact</Link>
 							<Link href='/Post'>UploadPost</Link>
