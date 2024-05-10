@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function MyPosts() {
 	return (
-		<>
+		<Box w={'full'} h={'100vh'} bg={'black'}>
 			<MenuPage />
 			<Box w={'50%'} mx={'auto'} pt={32} display={'flex'} flexDirection={'column'} gap={2} alignItems={'center'}>
 				<Image
@@ -21,6 +21,6 @@ export default function MyPosts() {
 				<div class='flex items-center justify-center w-full'></div>
 				<Button w={'full'}>Enter New Post</Button>
 			</Box>
-		</>
+		</Box>
 	);
 }

@@ -53,7 +53,7 @@ export default function MenuPage() {
 									</MenuItem>
 									<MenuItem>
 										{' '}
-										<Link href='/Post'>UploadPost</Link>
+										<Link href='/Posts'>UploadPost</Link>
 									</MenuItem>
 									<MenuItem>
 										{' '}
