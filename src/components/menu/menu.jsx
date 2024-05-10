@@ -53,11 +53,11 @@ export default function MenuPage() {
 									</MenuItem>
 									<MenuItem>
 										{' '}
-										<Link href='/Posts'>UploadPost</Link>
+										<Link href='/MyPost'>UploadPost</Link>
 									</MenuItem>
 									<MenuItem>
 										{' '}
-										<Link href='/MyPost'>MyPost</Link>
+										<Link href='/Post'>MyPost</Link>
 									</MenuItem>
 								</MenuList>
 							</Menu>
@@ -66,8 +66,8 @@ export default function MenuPage() {
 							<Link href='/Header'>Home</Link>
 							<Link href='/About'>About</Link>
 							<Link href='/Contact'>Contact</Link>
-							<Link href='/Post'>UploadPost</Link>
-							<Link href='/MyPost'>MyPost</Link>
+							<Link href='/MyPost'>UploadPost</Link>
+							<Link href='/Post'>MyPost</Link>
 						</HStack>
 					</HStack>
 					{/* email button */}
