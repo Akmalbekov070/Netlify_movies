@@ -14,9 +14,7 @@ export default function NewModalPage({ isOpen, onClose, AllCinema }) {
 				<ModalOverlay />
 				<ModalContent>
 					<ModalHeader></ModalHeader>
-					<ModalHeader>
-						<Image w={'full'} h={'400px'} objectFit={'cover'} src='' alt='' />
-					</ModalHeader>
+					<ModalHeader></ModalHeader>
 					<ModalBody></ModalBody>
 					<ModalFooter>
 						<Button colorScheme='blue' mr={3} onClick={onClose}>
